@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hockey Standings</string>
+    <string name="action_settings">Settings</string>
+    <string name="API_FILE_URL">https://nhlstandingsapp.s3.amazonaws.com/nhl_standings_json_file.txt</string>
+    <string name="rank"><u>Rank</u></string>
+    <string name="teamname"><u>Team Name</u></string>
+    <string name="record"><u>Record</u></string>
+</resources>
