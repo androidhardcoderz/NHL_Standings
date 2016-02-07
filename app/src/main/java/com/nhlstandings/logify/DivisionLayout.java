@@ -23,7 +23,7 @@ public class DivisionLayout extends LinearLayoutCompat {
         divisionNameTextView = (TextView) this.findViewById(R.id.divisionNameTextView);
         teamLayoutLinearLayout = (LinearLayout) this.findViewById(R.id.teamsLinearLayout);
 
-        divisionNameTextView.setText(division.getName());
+        divisionNameTextView.setText(division.getName() + " Division");
 
         for(Team team: division.getTeams()){
             teamLayoutLinearLayout.addView(new TeamLayout(getContext(),team));
